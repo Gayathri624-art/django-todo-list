@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: todo-django
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn ToDo_list.wsgi"
