@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2l%x#g&6so82=q5e%qw2h=dwr^w3g(r)ao1%*8cf-t6hn*h-t#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-todo-list-bv97.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -120,7 +120,6 @@ LOGOUT_REDIRECT_URL = '/login/'
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-ALLOWED_HOSTS = ['django-todo-list-bv97.onrender.com', 'localhost', '127.0.0.1']
 
 
 
