@@ -120,6 +120,8 @@ LOGOUT_REDIRECT_URL = '/login/'
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+ALLOWED_HOSTS = ['django-todo-list-bv97.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Default primary key field type
